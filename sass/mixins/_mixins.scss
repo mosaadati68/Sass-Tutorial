@@ -1,0 +1,12 @@
+@mixin padding {
+  margin: {
+    left: 20px;
+  }
+}
+
+@mixin border($border) {
+  -webkit-border: $border;
+  -ms-border: $border;
+  -moz-border: $border;
+  border: $border;
+}
