@@ -1,6 +1,7 @@
 body {
   background-color: #ffffff;
-  font-family: IRANSansWeb; }
+  font-family: IRANSansWeb;
+  direction: rtl; }
   body nav {
     float: right;
     margin-top: 20px;
