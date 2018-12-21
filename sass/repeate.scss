@@ -1,0 +1,34 @@
+//@each $i in 1, 2, 3, 4, 5 {
+//  .item-#{$i} {
+//    width: 100 * $i+px;
+//  }
+//}
+//
+//$i: 6;
+//@while ($i > 0) {
+//  .item-#{$i} {
+//    width: 100 * $i+px;
+//  }
+//  $i: $i - 1;
+//}
+//
+//@for $i from 1 through 5 {
+//  .item-#{$i} {
+//    width: 100 * $i+px;
+//  }
+//}
+//
+//@each $cource, $color in (javascript, yellow), (laravel, red), (php-mvc blue) {
+//  .#{$cource}-icon {
+//    background-image: url("/images/#{$cource}.png");
+//    border: 2px solid $color;
+//    width: 150px;
+//    height: 150px;
+//  }
+//}
+
+@each $header, $size in (h1:2em, h2:1.5em, h3:1.2em) {
+  #{$header} {
+    font-size: $size;
+  }
+}

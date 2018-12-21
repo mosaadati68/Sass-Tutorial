@@ -1,5 +1,6 @@
 @import "variables";
 @import "mixins/mixins";
+@import "functions";
 
 body {
   background-color: #ffffff;
@@ -12,6 +13,7 @@ nav {
   margin-top: 20px;
   background-color: #6d859c;
   width: 100%;
+  //width: grid-width(12);
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
   ul {

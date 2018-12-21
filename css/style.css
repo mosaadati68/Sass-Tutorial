@@ -1,90 +1,70 @@
 body {
-    background-color: #ffffff;
-    font-family: IRANSansWeb;
-    direction: rtl;
-}
+  background-color: #ffffff;
+  font-family: IRANSansWeb;
+  direction: rtl; }
 
 nav {
-    float: right;
-    margin-top: 20px;
-    background-color: #6d859c;
-    width: 100%;
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
-}
-
-nav ul {
+  float: right;
+  margin-top: 20px;
+  background-color: #6d859c;
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px; }
+  nav ul {
     border-bottom: #1b1e21;
-    border-bottom-width: 2px;
-}
-
-nav ul li {
-    display: inline-block;
-    margin-left: 20px;
-}
-
-nav ul a {
-    text-decoration: none;
-    color: #ffffff;
-}
-
-nav ul a:hover {
-    color: #0b0c0a;
-    opacity: 0.5;
-    text-decoration: #1b1e21;
-}
-
-nav ul a::after {
-    content: '';
-    display: block;
-    position: relative;
-    width: 0;
-    height: 2px;
-    top: 18px;
-    z-index: 3;
-    background: #ff0317;
-    transition: width .3s;
-}
-
-nav ul a:hover::after {
-    width: 100%;
-    transition: width .3s;
-}
+    border-bottom-width: 2px; }
+    nav ul li {
+      display: inline-block;
+      margin-left: 20px; }
+    nav ul a {
+      text-decoration: none;
+      color: #ffffff; }
+      nav ul a:hover {
+        color: #0b0c0a;
+        opacity: 0.5;
+        text-decoration: #1b1e21; }
+      nav ul a::after {
+        content: '';
+        display: block;
+        position: relative;
+        width: 0;
+        height: 2px;
+        top: 18px;
+        z-index: 3;
+        background: #ff0317;
+        transition: width .3s; }
+      nav ul a:hover::after {
+        width: 100%;
+        transition: width .3s; }
 
 .c-navi_line {
-    position: relative;
-    left: 0;
-    right: 0;
-    top: 0;
-    width: 100%;
-    height: 2px;
-    z-index: 2;
-    background-color: #000;
-}
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 2px;
+  z-index: 2;
+  background-color: #000; }
 
 .message, .success, .info, .error, .warning {
-    -webkit-border: 1px solid #ccc;
-    -ms-border: 1px solid #ccc;
-    -moz-border: 1px solid #ccc;
-    border: 1px solid #ccc;
-    padding: 10px;
-    color: #6d859c;
-}
+  -webkit-border: 1px solid #ccc;
+  -ms-border: 1px solid #ccc;
+  -moz-border: 1px solid #ccc;
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #6d859c; }
 
 .success {
-    border-color: darkgreen;
-}
+  border-color: darkgreen; }
 
 .info {
-    border-color: darkblue;
-}
+  border-color: darkblue; }
 
 .error {
-    border-color: darkred;
-}
+  border-color: darkred; }
 
 .warning {
-    border-color: greenyellow;
-}
+  border-color: greenyellow; }
 
 /*# sourceMappingURL=style.css.map */
